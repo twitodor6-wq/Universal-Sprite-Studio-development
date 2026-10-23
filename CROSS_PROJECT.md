@@ -23,3 +23,13 @@ No cross-repository edits without approval. No unverified merge into stable bran
 - Import the latest verified source + HANDOFF after reviewing provenance.
 - Define the minimal cross-project interface; keep changes modular.
 - Publish verified QA results and update coordinator through issues.
+
+## HQ synchronization — 2026-10-24
+- HQ registry: https://github.com/twitodor9-lgtm/JLM-Night-rush/issues/3
+- USS HQ proxy: https://github.com/twitodor9-lgtm/JLM-Night-rush/issues/5
+- USS source/Batch QA: https://github.com/twitodor6-wq/Universal-Sprite-Studio-development/issues/1
+- Sprite-export interface proposal: https://github.com/twitodor6-wq/Universal-Sprite-Studio-development/issues/2
+- Central GitHub connection has now successfully read and written project issues. Earlier 403 warning in the HQ proxy is historic, not current.
+- Last **reported** version: v0.3.0 M2 PARTIAL; NOT a verified repository release. Reported Blender 5.2.2 (Windows) single-action test: 12 PNGs + atlas + JSON. Full Batch with multiple actions remains unverified.
+- Source baseline: latest full ZIP/HANDOFF unavailable in this session; no add-on source present in repository; Blender executable not available in current environment. No new build/runtime QA performed.
+- Handoff: retain existing source and development loop; verify provenance before import; carry out multi-action Blender Batch test; log producer/consumer evidence and avoid unapproved merges/deployments.
